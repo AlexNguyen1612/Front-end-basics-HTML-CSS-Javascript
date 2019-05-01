@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <!--normalize-->
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <!--style-->
+    <link rel="stylesheet" type="text/css" href="Tipcalculator.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>Tip Calculator</h1>
+        <form>
+            <label>How much was your bill?</label>
+            <p>$</p>
+            <input type="text" value="" id="billamount"/>
+            <br>
+            <br>
+            <br>
+            <label>How was your service?</label>
+
+            <select name="Performance rating" id="performance_rating">
+                <option disabled selected>--Choose performance rating--</option>
+                <option value="0.05">5% - Terrible</option>
+                <option value="0.1">10% - Bad</option>
+                <option value="0.15">15% - It was okay</option>
+                <option value="0.2">20% - Good</option>
+                <option value="0.3">30% - Outstanding</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label>How many people are sharing the bill?</label>
+
+            <input type="text" value="" id="people"/>
+            <p>people</p>
+            <br>
+            <br>
+            <br>
+            <input type="button" value="Calculate!" id="calculate"/>
+        </form>
+        <div id="result">
+        <sup>$</sup><span id="total">0.00</span>
+        <small>each</small>
+    </div>
+    </div><!--container-->
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+
+</html>

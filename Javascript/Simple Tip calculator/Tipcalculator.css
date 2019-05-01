@@ -1,0 +1,67 @@
+#container {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#container h1 {
+    color: darkred;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #ddd;
+}
+
+label {
+    color: darkred;
+    font-weight: bold;
+    padding-bottom: 10px;
+    display: block;
+}
+
+input[type="button"] {
+    width: 300px;
+    height: 65px;
+    background-color: darkred;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0px 4px black;
+}
+
+p {
+    display: inline;
+    color: darkred;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 80px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+#result {
+    font-size: 50px;
+    margin-top: 40px;
+    text-align: center;
+    color: darkred;
+}
+
+#result:before {
+    content: "Tip amount";
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#result sup {
+    font-size: 24px;
+    top: -18px;
+}
+
+#result small {
+    display: block;
+    font-size: 20px;
+}
